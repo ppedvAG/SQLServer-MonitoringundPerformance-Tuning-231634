@@ -11,25 +11,27 @@ IO reduzieren!!!
 IO schneller machen
 
 
-jeweniger IO desto weniger...RAM und desto weiger CPU
-IO-->CPU
+je weniger IO desto weniger RAM und desto weniger CPU
+
 
 Virtualisierung--> Konsolidierung--> genug HDD Power?
 
 Goldene Regel:
 
-Trenne Log von Daten physikalisch!
+Trenne Log von Daten physikalisch! 
 
 CPU
 
 ! Bilde in der VM die reale Umgebung ab..
 
 NUMA: 
-NUMA Architektur...zu jedem RAM Sockel (Knoten) gehört ein bestimmter Prozessor
-	Vorteil der ZUgriff ist sehr schnell
-	Zugriff auf RAM eines anderen Sockel höhere Latenzzeit
+NUMA Architektur...zu jedem RAM Slot  gehört
+	ein bestimmter Prozessor Sockel(Knoten)
+
+	Vorteil der Zugriff ist sehr schnell
+	Zugriff auf RAM eines anderen Sockel höhere Latenzzeit mehr CPU Aufwand
       
-Was, wenn die Architekur in VM was anderes sieht, als es in der realität ist..
+Was, wenn die Architekur in VM was anderes sieht, als es in der Realität ist..
 
 
 RAMVERTEILUNG bei VMs
