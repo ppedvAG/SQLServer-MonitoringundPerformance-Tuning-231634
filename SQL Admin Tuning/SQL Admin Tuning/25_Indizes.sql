@@ -15,6 +15,7 @@ NON CLUST IX
 ca 1000 mal Tabelle
 gut bei geringen Resultset (id)
 
+
 --------------------------
 eindeutiger IX
 zusammengesetzter IX

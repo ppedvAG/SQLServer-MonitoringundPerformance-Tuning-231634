@@ -141,6 +141,10 @@ alter table ptab switch partition 1 to archiv
 
 select * from archiv
 
+select * from ptab
+
+--100MB /Sek    --- 1000000000000000000000000000000000000000MB?
+
 --100MB/Sek ---> 100000000000000000000000000000MB			ca nicht messbar
 
 select * from ptab where id = 203
